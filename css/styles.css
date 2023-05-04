@@ -45,7 +45,7 @@ hr{
   margin: 100px auto;
 }
 .top-container{
-  background-color: #AFEEEE;
+  background-color: #E0FFFF;
   position: relative;
   padding-top: 100px;
 }
@@ -57,7 +57,7 @@ hr{
   padding: 50px 0 20px;
 }
 .skill-row{
-  width: 50%;
+  width: 60%;
   margin: 100px auto;
   text-align: left;
 }
@@ -254,16 +254,17 @@ hr{
 .no-margin{
   margin: 0px;
 }
+.d-flex{
+  display: flex;
+}
 /*----------------------------------------------------*/
 
-/* Hide the expandable content by default */
 .expandable-content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 } 
 
-/* When the checkbox is checked, show the expandable content */
 .expand-checkbox:checked ~ .expandable-content {
   max-height: 2000px;
   transition: max-height 0.4s ease-in;
