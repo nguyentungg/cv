@@ -247,6 +247,11 @@ hr{
   background-color: #00008B;
   color: white;
 }
+.ored{
+  background-color: #FF4500;
+  color: white;
+}
+/*----------------------------------------------------*/
 .footer-link{
   color: black;
   font-weight: bold;
@@ -257,7 +262,7 @@ hr{
 .d-flex{
   display: flex;
 }
-/*----------------------------------------------------*/
+
 
 .expandable-content {
   max-height: 0;
