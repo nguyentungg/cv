@@ -32,7 +32,7 @@ a{
 }
 
 a:hover{
-  color: #EAF6F6;
+  color: rgb(163, 162, 162);
 }
 
 p{
@@ -45,7 +45,7 @@ hr{
   margin: 100px auto;
 }
 .top-container{
-  background-color: #E4F9F5;
+  background-color: #AFEEEE;
   position: relative;
   padding-top: 100px;
 }
@@ -112,6 +112,163 @@ hr{
     height: auto;
 }
 
+.dot {
+  height: 150px;
+  width: 150px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+  justify-content: center;
+  margin:10px;
+  font-size: 35px;
+}
+.dot:hover{
+  background-color: yellow;
+  color: gray;
+}
+
+/*------------------------TAG-------------------------*/
+.tag{
+  background-color: #11cdd4;
+  border-radius: 4px;
+  margin-right: 2px;
+  padding: 2px 5px 2px 5px;
+}
+.red{
+  background-color: #F08080;
+  color: white;
+}
+.blue{
+  background-color: #4682B4;
+  color: white;
+}
+.blue-sky{
+  background-color: #00BFFF;
+  color: white;
+}
+.tur{
+  background-color: #48D1CC;
+  color: white;
+}
+.dog{
+  background-color: #556B2F;
+  color: white;
+}
+.black{
+  background-color: black;
+  color: white;
+}
+.grey{
+  background-color: #D3D3D3;
+  color: white;
+}
+.salmon{
+  background-color: #FFA07A;
+  color: white;
+}
+.maquam{
+  background-color: #66CDAA;
+  color: white;
+}
+.orange{
+  background-color: #FFA500;
+  color: white;
+}
+.oliveD{
+  background-color: #6B8E23;
+  color: white;
+}
+.peru{
+  background-color: #CD853F;
+  color: white;
+}
+.stgrey{
+  background-color: #708090;
+  color: white;
+}
+.teal{
+  background-color: #008080;
+  color: white;
+}
+.seagreen{
+  background-color: #2E8B57;
+  color: white;
+}
+.sandybrown{
+  background-color: #F4A460;
+  color: white;
+}
+.dCyan{
+  background-color: #008B8B;
+  color: white;
+}
+.blood{
+  background-color: red;
+  color: white;
+}
+.coral{
+  background-color: #FF7F50;
+  color: white;
+}
+.dgr{
+  background-color: #B8860B;
+  color: white;
+}
+.dogblue{
+  background-color: #1E90FF;
+  color: white;
+}
+.dsgrey{
+  background-color: #2F4F4F;
+  color: white;
+}
+.fbrick{
+  background-color: #B22222;
+  color: white;
+}
+.crimson{
+  background-color: #DC143C;
+  color: white;
+}
+.dred{
+  background-color: #8B0000;
+  color: white;
+}
+.dsblue{
+  background-color: #483D8B;
+  color: white;
+}
+.steelblue{
+  background-color: #4682B4;
+  color: white;
+}
+.dblue{
+  background-color: #00008B;
+  color: white;
+}
+.footer-link{
+  color: black;
+  font-weight: bold;
+}
+.no-margin{
+  margin: 0px;
+}
+/*----------------------------------------------------*/
+
+/* Hide the expandable content by default */
+.expandable-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+} 
+
+/* When the checkbox is checked, show the expandable content */
+.expand-checkbox:checked ~ .expandable-content {
+  max-height: 2000px;
+  transition: max-height 0.4s ease-in;
+} 
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999i);
@@ -138,7 +295,6 @@ hr{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-
 /* ============== COMMON ============== */
 .ml-a{ margin-left: auto;}
 .mr-a{ margin-right: auto;}
