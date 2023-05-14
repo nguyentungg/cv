@@ -148,11 +148,6 @@ hr {
   font-size: 35px;
 }
 
-.dot:hover {
-  background-color: yellow;
-  color: gray;
-}
-
 /*------------------------TAG-------------------------*/
 .tag-parent {
   display: flex;
