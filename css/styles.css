@@ -84,7 +84,7 @@ hr {
 }
 
 .intro {
-  width: 30%;
+  width: 45%;
   margin: auto;
 }
 
@@ -483,6 +483,25 @@ hr {
   .top-container {
     background-image: url("../images/bg/1024x768-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+  .intro {
+    width: 60%;
+  }
+  .skill-row {
+    width: 80%;
+  }
+  .p-title {
+    padding-top: 28%;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: landscape) {
+  .top-container {
+    background-image: url("../images/bg/480x270-780348-steampunk-Airship-Fantastic-world.jpg");
+  }
+  .intro {
+    width: 60%;
+  }
   .skill-row {
     width: 80%;
   }
@@ -495,6 +514,9 @@ hr {
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
   .top-container {
     background-image: url("../images/bg/480x270-780348-steampunk-Airship-Fantastic-world.jpg");
+  }
+  .intro {
+    width: 60%;
   }
   .skill-row {
     width: 80%;
@@ -509,6 +531,9 @@ hr {
   .top-container {
     background-image: url("../images/bg/640x360-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+  .intro {
+    width: 60%;
+  }
   .skill-row {
     width: 80%;
   }
@@ -518,7 +543,7 @@ hr {
 }
 
 /* For Mobile Phones Portrait or Landscape View */
-@media screen and (max-device-width: 640px) {
+@media screen and (max-device-width: 640px) and (min-device-width: 480px) {
   .top-container {
     background-image: url("../images/bg/640x360-780348-steampunk-Airship-Fantastic-world.jpg");
   }
@@ -527,6 +552,9 @@ hr {
   }
   .p-title {
     padding-top: 28%;
+  }
+  .intro {
+    width: 60%;
   }
 }
 /* For Mobile Phones Portrait or Landscape View */
@@ -549,11 +577,17 @@ hr {
   .p-title {
     padding-top: 28%;
   }
+  .intro {
+    width: 60%;
+  }
 }
 
 /* For iPhone 5 Portrait or Landscape View */
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
   .top-container {
     background-image: url("../images/bg/320x180-780348-steampunk-Airship-Fantastic-world.jpg");
+  }
+  .intro {
+    width: 60%;
   }
 }
