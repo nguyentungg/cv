@@ -154,20 +154,21 @@ hr {
 }
 
 /*------------------------TAG-------------------------*/
-.tag-parent{
+.tag-parent {
   display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
   padding-top: 5px;
 }
 
 .tag {
   background-color: #11cdd4;
   border-radius: 4px;
-  margin-right: 2px;
+  margin-right: 3px;
+  margin-bottom: 3px;
   padding: 2px 5px 2px 5px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -313,6 +314,34 @@ hr {
   color: white;
 }
 
+.cppblue {
+  background-color: #0080cd;
+  color: white;
+}
+.csviolet {
+  background-color: #68217a;
+  color: white;
+}
+.jsyellow {
+  background-color: #f0dc4e;
+  color: black;
+}
+.pyblue {
+  background-color: #3c7caf;
+  color: white;
+}
+.arcadeco {
+  background-color: #B44646;
+  color: white;
+}
+.blueprint {
+  background-color: #2174c6;
+  color: white;
+}
+.unreal {
+  background-color: #154370;
+  color: white;
+}
 .ored {
   background-color: #FF4500;
   color: white;
@@ -343,7 +372,6 @@ hr {
 .d-flex {
   display: flex;
 }
-
 
 .expandable-content {
   max-height: 0;
@@ -483,12 +511,15 @@ hr {
   .top-container {
     background-image: url("../images/bg/1024x768-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+
   .intro {
     width: 60%;
   }
+
   .skill-row {
     width: 80%;
   }
+
   .p-title {
     padding-top: 28%;
   }
@@ -499,12 +530,15 @@ hr {
   .top-container {
     background-image: url("../images/bg/480x270-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+
   .intro {
     width: 60%;
   }
+
   .skill-row {
     width: 80%;
   }
+
   .p-title {
     padding-top: 28%;
   }
@@ -515,12 +549,15 @@ hr {
   .top-container {
     background-image: url("../images/bg/480x270-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+
   .intro {
     width: 60%;
   }
+
   .skill-row {
     width: 80%;
   }
+
   .p-title {
     padding-top: 28%;
   }
@@ -531,12 +568,15 @@ hr {
   .top-container {
     background-image: url("../images/bg/640x360-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+
   .intro {
     width: 60%;
   }
+
   .skill-row {
     width: 80%;
   }
+
   .p-title {
     padding-top: 28%;
   }
@@ -547,36 +587,45 @@ hr {
   .top-container {
     background-image: url("../images/bg/640x360-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+
   .skill-row {
     width: 80%;
   }
+
   .p-title {
     padding-top: 28%;
   }
+
   .intro {
     width: 60%;
   }
 }
+
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 375px) {
   .top-container {
     background-image: url("../images/bg/375x210-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+
   .skill-row {
     width: 80%;
   }
+
   .p-title {
     padding-top: 28%;
   }
 }
+
 /* For iPhone 4 Portrait or Landscape View */
 @media screen and (max-device-width: 360px) and (-webkit-min-device-pixel-ratio: 2) {
   .top-container {
     background-image: url("../images/bg/360x202-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+
   .p-title {
     padding-top: 28%;
   }
+
   .intro {
     width: 60%;
   }
@@ -587,6 +636,7 @@ hr {
   .top-container {
     background-image: url("../images/bg/320x180-780348-steampunk-Airship-Fantastic-world.jpg");
   }
+
   .intro {
     width: 60%;
   }
